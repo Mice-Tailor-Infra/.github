@@ -80,15 +80,25 @@ Private Pacman repository hosting CI/CD auto-built **sing-box-ref1nd** packages,
 
 #### 🌐 Network Optimization
 
-##### [fcm-hosts-ksu](https://github.com/Mice-Tailor-Infra/fcm-hosts-ksu)
+##### [micetimer](https://github.com/Mice-Tailor-Infra/micetimer)
 
-KernelSU/Magisk module for systemless hosts management with auto-sync capability.
+A systemd-style timer daemon for Android with WakeLock support, designed for high-reliability background task scheduling.
 
 **Key Features:**
-- Soft link strategy (`/system/etc/hosts` → `/data/adb/fcm-hosts/hosts`)
-- Cloud sync with FCM dual IP pool
-- Scheduled updates every 3 hours
+- Precision timing via Linux `timerfd` (CLOCK_BOOTTIME)
+- Android WakeLock acquisition during task execution
+- Centralized task management via `/data/adb/timers.d/`
+- Lightweight Rust implementation
+
+##### [fcm-hosts-ksu](https://github.com/Mice-Tailor-Infra/fcm-hosts-ksu)
+
+KernelSU/Magisk module for systemless hosts management. Managed by **MiceTimer** for high-reliability updates.
+
+**Key Features:**
+- Skeleton architecture: `/system/etc/hosts` → `/data/adb/fcm-hosts/hosts`
+- Managed by MiceTimer with **1-hour** sync interval
 - Localhost protection and SELinux compatibility
+- Installation dependency check for MiceTimer
 
 **Languages:** Shell | **Homepage:** [FCM Hosts KSU](https://miceworld.top/fcm-hosts-ksu/)
 
@@ -160,9 +170,9 @@ GitHub Pages site for the organization.
 
 ### 📊 Repository Statistics
 
-- **Total Repositories:** 8
-- **Primary Languages:** Shell, Python, CSS, JSON
-- **Active Projects:** 7 (excluding this meta repository)
+- **Total Repositories:** 9
+- **Primary Languages:** Rust, Shell, Python, CSS, JSON
+- **Active Projects:** 8 (excluding this meta repository)
 - **License:** Most projects use MIT License
 
 ### 🤝 Contributing
@@ -269,15 +279,25 @@ Individual projects are licensed separately. Most use the MIT License. See each 
 
 #### 🌐 网络优化
 
-##### [fcm-hosts-ksu](https://github.com/Mice-Tailor-Infra/fcm-hosts-ksu)
+##### [micetimer](https://github.com/Mice-Tailor-Infra/micetimer)
 
-KernelSU/Magisk 模块，用于无系统化 hosts 管理，支持自动同步。
+为 Android 深度定制的 Systemd 风格定时器守护进程，解决深睡计时不准问题并支持唤醒锁（WakeLock）。
 
 **核心特性：**
-- 软链接策略（`/system/etc/hosts` → `/data/adb/fcm-hosts/hosts`）
-- 与 FCM 双栈 IP 池云端同步
-- 每 3 小时自动更新
+- 基于 Linux `timerfd` (CLOCK_BOOTTIME) 实现精准计时
+- 任务执行期间自动申请 Android 唤醒锁，防止 CPU 挂起
+- 通过 `/data/adb/timers.d/` 集中管理所有模块的定时任务
+- 极轻量、高性能的 Rust 原生实现
+
+##### [fcm-hosts-ksu](https://github.com/Mice-Tailor-Infra/fcm-hosts-ksu)
+
+KernelSU/Magisk 模块，用于无系统化 hosts 管理。现在由 **MiceTimer** 统一托管，实现高可靠同步。
+
+**核心特性：**
+- 空壳化架构：`/system/etc/hosts` → `/data/adb/fcm-hosts/hosts`
+- 由 MiceTimer 驱动，同步频率提升至 **1 小时/次**
 - 保护本地主机定义并兼容 SELinux
+- 安装时自动检测 MiceTimer 依赖
 
 **语言：** Shell | **主页：** [FCM Hosts KSU](https://miceworld.top/fcm-hosts-ksu/)
 
@@ -349,9 +369,9 @@ KernelSU/Magisk 模块，用于无系统化 hosts 管理，支持自动同步。
 
 ### 📊 仓库统计
 
-- **仓库总数：** 8
-- **主要语言：** Shell、Python、CSS、JSON
-- **活跃项目：** 7 个（不含本元仓库）
+- **仓库总数：** 9
+- **主要语言：** Rust, Shell, Python, CSS, JSON
+- **活跃项目：** 8 个（不含本元仓库）
 - **许可证：** 大多数项目使用 MIT 许可证
 
 ### 🤝 贡献
@@ -382,7 +402,7 @@ KernelSU/Magisk 模块，用于无系统化 hosts 管理，支持自动同步。
 
 ---
 
-**Last Updated / 最后更新：** 2026-01-01
+**Last Updated / 最后更新：** 2026-01-02
 
 For questions or support, please open an issue in the relevant repository.  
 如有问题或需要支持，请在相关仓库中提交 issue。
