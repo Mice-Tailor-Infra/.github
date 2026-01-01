@@ -144,70 +144,6 @@ GitHub Pages site for the organization.
          └───────────────┘
 ```
 
-### 🚀 Quick Start
-
-#### For Android Users (KernelSU/Magisk)
-
-1. **Install sing-box-ksu-module:**
-   ```bash
-   # Download latest release from
-   # https://github.com/Mice-Tailor-Infra/sing-box-ksu-module/releases
-   # Install via Magisk/KernelSU Manager
-   # Reboot device
-   ```
-
-2. **Configure subscription:**
-   ```bash
-   sbc edit
-   # Add your subscription URLs
-   sbc start
-   ```
-
-3. **Optional: Install FCM hosts optimization:**
-   ```bash
-   # Download fcm-hosts-ksu module
-   # Install via Magisk/KernelSU Manager
-   # Reboot device
-   ```
-
-#### For Arch Linux Users
-
-1. **Add CagedBird repository:**
-   ```bash
-   # Edit /etc/pacman.conf, add at the top:
-   [cagedbird-repo]
-   SigLevel = Optional TrustAll
-   Server = https://miceworld.top/cagedbird-pacman-repo/$arch
-   ```
-
-2. **Install sing-box:**
-   ```bash
-   sudo pacman -Syy
-   sudo pacman -S sing-box-ref1nd
-   ```
-
-#### For Configuration Template Users
-
-1. **Clone the template repository:**
-   ```bash
-   git clone https://github.com/Mice-Tailor-Infra/sing-box-config-templates.git
-   cd sing-box-config-templates
-   ```
-
-2. **Setup environment:**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your subscription URLs
-   vim .env
-   ```
-
-3. **Generate and run:**
-   ```bash
-   set -a && source .env && set +a
-   envsubst < config.template.json > config.json
-   sing-box run -c config.json
-   ```
-
 ### 🌟 Key Technologies
 
 - **Sing-box:** High-performance universal proxy platform
@@ -220,8 +156,7 @@ GitHub Pages site for the organization.
 ### 🔗 Important Links
 
 - **CDN Distribution:** [miceworld.top](https://miceworld.top)
-- **Build Status:** Check individual repository Actions tabs
-- **Documentation:** Available in each repository's README
+- **Documentation:** See individual repository READMEs for detailed usage guides
 
 ### 📊 Repository Statistics
 
@@ -398,70 +333,6 @@ KernelSU/Magisk 模块，用于无系统化 hosts 管理，支持自动同步。
          └───────────────┘
 ```
 
-### 🚀 快速开始
-
-#### Android 用户（KernelSU/Magisk）
-
-1. **安装 sing-box-ksu-module：**
-   ```bash
-   # 从以下地址下载最新版本
-   # https://github.com/Mice-Tailor-Infra/sing-box-ksu-module/releases
-   # 通过 Magisk/KernelSU Manager 安装
-   # 重启设备
-   ```
-
-2. **配置订阅：**
-   ```bash
-   sbc edit
-   # 添加你的订阅链接
-   sbc start
-   ```
-
-3. **可选：安装 FCM hosts 优化：**
-   ```bash
-   # 下载 fcm-hosts-ksu 模块
-   # 通过 Magisk/KernelSU Manager 安装
-   # 重启设备
-   ```
-
-#### Arch Linux 用户
-
-1. **添加 CagedBird 仓库：**
-   ```bash
-   # 编辑 /etc/pacman.conf，在顶部添加：
-   [cagedbird-repo]
-   SigLevel = Optional TrustAll
-   Server = https://miceworld.top/cagedbird-pacman-repo/$arch
-   ```
-
-2. **安装 sing-box：**
-   ```bash
-   sudo pacman -Syy
-   sudo pacman -S sing-box-ref1nd
-   ```
-
-#### 配置模板用户
-
-1. **克隆模板仓库：**
-   ```bash
-   git clone https://github.com/Mice-Tailor-Infra/sing-box-config-templates.git
-   cd sing-box-config-templates
-   ```
-
-2. **设置环境：**
-   ```bash
-   cp .env.example .env
-   # 使用你的订阅链接编辑 .env
-   vim .env
-   ```
-
-3. **生成并运行：**
-   ```bash
-   set -a && source .env && set +a
-   envsubst < config.template.json > config.json
-   sing-box run -c config.json
-   ```
-
 ### 🌟 关键技术
 
 - **Sing-box：** 高性能通用代理平台
@@ -474,8 +345,7 @@ KernelSU/Magisk 模块，用于无系统化 hosts 管理，支持自动同步。
 ### 🔗 重要链接
 
 - **CDN 分发：** [miceworld.top](https://miceworld.top)
-- **构建状态：** 查看各个仓库的 Actions 标签页
-- **文档：** 各仓库的 README 中提供
+- **文档：** 详细使用指南请查看各仓库的 README
 
 ### 📊 仓库统计
 
