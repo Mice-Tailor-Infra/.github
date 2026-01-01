@@ -82,7 +82,7 @@ KernelSU/Magisk module for systemless hosts management with auto-sync capability
 - Scheduled updates every 3 hours
 - Localhost protection and SELinux compatibility
 
-**Languages:** Shell | **Homepage:** [FCM Hosts KSU](http://miceworld.top/fcm-hosts-ksu/)
+**Languages:** Shell | **Homepage:** [FCM Hosts KSU](https://miceworld.top/fcm-hosts-ksu/)
 
 #### [fcm-hosts-next](https://github.com/Mice-Tailor-Infra/fcm-hosts-next)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Mice-Tailor-Infra/fcm-hosts-next/blob/main/LICENSE)
@@ -99,7 +99,7 @@ Automated Google Firebase Cloud Messaging (FCM) optimized hosts project with dis
 - `fcm_ipv6.hosts` - Pure IPv6 version
 - `fcm_ipv4.hosts` - Pure IPv4 version
 
-**Languages:** Python | **Homepage:** [FCM Hosts Next](http://miceworld.top/fcm-hosts-next/)
+**Languages:** Python | **Homepage:** [FCM Hosts Next](https://miceworld.top/fcm-hosts-next/)
 
 ### 🌍 Organization Website
 
