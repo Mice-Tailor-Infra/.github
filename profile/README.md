@@ -119,6 +119,22 @@ Automated Google Firebase Cloud Messaging (FCM) optimized hosts project with dis
 
 **Languages:** Python | **Homepage:** [FCM Hosts Next](https://miceworld.top/fcm-hosts-next/)
 
+#### 🎥 Multimedia & Streaming
+
+##### [DroidV4L2](https://github.com/Mice-Tailor-Infra/DroidV4L2)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Documentation](https://img.shields.io/badge/docs-miceworld.top-green.svg)](https://miceworld.top/DroidV4L2/)
+
+Professional tool that turns your Android device into a low-latency, high-quality wireless webcam for Linux.
+
+**Key Features:**
+- Ultra-Low Latency (< 50ms)
+- Custom TinyRtspKt Engine
+- High-performance Rust backend
+- Codec hot-swapping
+
+**Languages:** Kotlin, Rust | **Homepage:** [Documentation](https://miceworld.top/DroidV4L2/)
+
 #### 🌍 Organization Website
 
 ##### [mice-tailor-infra.github.io](https://github.com/Mice-Tailor-Infra/mice-tailor-infra.github.io)
@@ -170,9 +186,9 @@ GitHub Pages site for the organization.
 
 ### 📊 Repository Statistics
 
-- **Total Repositories:** 9
-- **Primary Languages:** Rust, Shell, Python, CSS, JSON
-- **Active Projects:** 8 (excluding this meta repository)
+- **Total Repositories:** 10
+- **Primary Languages:** Rust, Shell, Python, CSS, JSON, Kotlin
+- **Active Projects:** 9 (excluding this meta repository)
 - **License:** Most projects use MIT License
 
 ### 🤝 Contributing
@@ -318,6 +334,22 @@ KernelSU/Magisk 模块，用于无系统化 hosts 管理。现在由 **MiceTimer
 
 **语言：** Python | **主页：** [FCM Hosts Next](https://miceworld.top/fcm-hosts-next/)
 
+#### 🎥 多媒体与流媒体
+
+##### [DroidV4L2](https://github.com/Mice-Tailor-Infra/DroidV4L2)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Documentation](https://img.shields.io/badge/docs-miceworld.top-green.svg)](https://miceworld.top/DroidV4L2/)
+
+专业的将 Android 设备转换为 Linux 低延迟、高质量无线网络摄像头的工具。
+
+**核心特性：**
+- 超低延迟 (< 50ms)
+- 自研 TinyRtspKt 引擎
+- 高性能 Rust 后端
+- 编解码器热切换
+
+**语言：** Kotlin, Rust | **主页：** [文档](https://miceworld.top/DroidV4L2/)
+
 #### 🌍 组织网站
 
 ##### [mice-tailor-infra.github.io](https://github.com/Mice-Tailor-Infra/mice-tailor-infra.github.io)
@@ -369,9 +401,9 @@ KernelSU/Magisk 模块，用于无系统化 hosts 管理。现在由 **MiceTimer
 
 ### 📊 仓库统计
 
-- **仓库总数：** 9
-- **主要语言：** Rust, Shell, Python, CSS, JSON
-- **活跃项目：** 8 个（不含本元仓库）
+- **仓库总数：** 10
+- **主要语言：** Rust, Shell, Python, CSS, JSON, Kotlin
+- **活跃项目：** 9 个（不含本元仓库）
 - **许可证：** 大多数项目使用 MIT 许可证
 
 ### 🤝 贡献
